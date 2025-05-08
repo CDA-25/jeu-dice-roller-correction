@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Roll</title>
+</head>
+<body>
+  <div id="app">
+    <div class="game-start">
+      <label class="label-input-nbr" for="diceInput">
+        choisissez le nombre de dés à lancer
+        <input class="input-nbr" type="number" id="diceInput" min="1" max="6" value="1">
+      </label>
+      <button class="btn-play">Jouer</button>
+    </div>
+
+    <div id="player"></div>
+    <div id="dealer"></div>
+  </div>
+  <script src="../js/app.js"></script>
+</body>
+</html>
